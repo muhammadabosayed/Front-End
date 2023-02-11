@@ -1,0 +1,68 @@
+body {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    margin: auto;
+    display: block;
+    height: 2000px;
+}
+
+
+/* Start Slider */
+
+.intro {
+    background: rgb(168, 168, 168);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 12.5px);
+    -webkit-backdrop-filter: blur( 12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.intro .right,
+.intro .left {
+    background: rgba( 255, 255, 255, 1);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 12.5px);
+    -webkit-backdrop-filter: blur( 12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: red;
+    margin-bottom: 10px !important;
+}
+
+.intro .left img,
+.intro .right img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.intro .right p {
+    color: rgb(149, 2, 2);
+}
+
+
+/* ************************* */
+
+.intro .head {
+    background: rgb(149, 2, 2);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 12.5px);
+    -webkit-backdrop-filter: blur( 12.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    color: #FFF;
+}
+
+.btn-danger {
+    color: #FFF !important;
+    background-color: rgb(149, 2, 2) !important;
+    font-weight: 900 !important;
+}
+
+
+
